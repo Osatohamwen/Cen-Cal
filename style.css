@@ -90,6 +90,7 @@ ul, li, a{
     font-weight: 700;
     color: #00ADEE;
     line-height: 24.6px;
+    border-radius: 5px;
 }
 .mini-top-nav li :hover{
     background-color: #00ADEE;
@@ -529,7 +530,7 @@ ul, li, a{
 .faqs-r div{
     display: flex;
     align-items: center;
-    width: 90%;
+    width: 100%;
     justify-content: space-between;
     padding: 25px 0;
     border-bottom:  0.5px solid #EEEEEE;
@@ -566,7 +567,7 @@ input{
 }
 .input-details input{
     height: 48px;
-    width: 90%;
+    width: 100%;
     background-color: transparent;
     border: 1px solid #DADADA;
 
@@ -927,5 +928,8 @@ input{
     }
     .free-quote-container{
         padding: 50px 50px 0 0;
+    }
+    .faqs-r div{
+        width: 90%;
     }
 }
